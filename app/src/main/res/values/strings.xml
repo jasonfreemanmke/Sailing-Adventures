@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sailing Adventures</string>
+    <string name="imgSail">Sailing Image</string>
+    <string name="txtTitle">Sailing Adventures in Milwaukee</string>
+    <string name="txtDescription">Welcome to my sailing app.  This is my first time making an app just for a tablet.  I really hope that this works and you that you like it</string>
+    <string name="btnDate">Select Date</string>
+</resources>

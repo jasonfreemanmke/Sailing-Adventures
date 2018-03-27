@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.matc.sailingadventures.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgSailing"
+        android:layout_width="212dp"
+        android:layout_height="669dp"
+        android:layout_marginLeft="-39dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/imgSail"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintVertical_bias="1.0"/>
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="743dp"
+        android:layout_height="89dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#b0c4de"
+        android:padding="16dp"
+        android:text="@string/txtTitle"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/imgSailing"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="366dp"/>
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="750dp"
+        android:layout_height="163dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="9dp"
+        android:padding="16dp"
+        android:text="@string/txtDescription"
+        android:textSize="36sp"
+        app:layout_constraintLeft_toRightOf="@+id/imgSailing"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle"
+        tools:layout_editor_absoluteX="355dp"/>
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:padding="20dp"
+        android:text="@string/btnDate"
+        android:textAllCaps="false"
+        android:textSize="40sp"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toRightOf="@+id/imgSailing"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescription"/>
+
+    <TextView
+        android:id="@+id/txtReservation"
+        android:layout_width="741dp"
+        android:layout_height="109dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/imgSailing"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDate"
+        tools:layout_editor_absoluteY="388dp"
+        tools:text="Your Reservation is set for July 19, 2017"/>
+</android.support.constraint.ConstraintLayout>
